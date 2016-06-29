@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.epicodus.comicbookstore.AboutActivity"
+    android:background="@color/colorPrimaryLight">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Address: 400 NW 4TH COUCH ST, PORTLAND OR \nPhone:(503) 241-0227"
+        android:id="@+id/textView2"
+        android:layout_marginTop="33dp"
+        android:layout_below="@+id/textView3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Floating World Comics is a store for people who still like going to stores. We’re a bookstore that just happens to carry the coolest books of all – comics. But also art books, international art magazines, graphic design, illustration, animation, music and movie related items, anything that might serve as inspiration for creative people looking for something new. We’re also a gallery with First Thursday art openings and in 2008 we branched out into publishing. We’ve published over twenty books, art newspapers and comics including the resurrected Arthur Magazine."
+        android:id="@+id/textView3"
+        android:layout_marginTop="22dp"
+        android:layout_below="@+id/aboutUsTitle"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="About Us:"
+        android:id="@+id/aboutUsTitle"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textIsSelectable="false"
+        android:textColor="@android:color/black" />
+</RelativeLayout>

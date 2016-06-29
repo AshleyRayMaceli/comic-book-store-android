@@ -11,7 +11,7 @@
     android:background="@drawable/store">
 
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Floating World Comics"
         android:textSize="34dp"
@@ -20,7 +20,8 @@
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
-        android:id="@+id/textView" />
+        android:id="@+id/textView"
+        android:textAlignment="center" />
 
     <Button
         android:layout_width="match_parent"
@@ -31,4 +32,12 @@
         android:layout_above="@+id/textView"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Read about us"
+        android:id="@+id/aboutUsButton"
+        android:layout_above="@+id/textView"
+        android:layout_centerHorizontal="true" />
 </RelativeLayout>
